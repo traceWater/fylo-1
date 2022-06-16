@@ -1,0 +1,35 @@
+.divQuotes {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  color: white;
+  background-color: #181f2b;
+}
+
+.divQuotes img {
+  width: 5%;
+  margin-left: 10%;
+}
+
+.divQuotesSingleBody {
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin: -15px auto 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(0,0,0,0);
+}
+
+@media screen and (max-width: 768px) {
+  .divQuotesSingleBody {
+    flex-flow: column wrap;
+    margin: -10px auto 0px;
+  }
+}

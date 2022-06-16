@@ -1,0 +1,46 @@
+.divAttr {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -250px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  color: white;
+  .divAttrPic {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.divAttrSingleBody {
+  font-family: 'Open Sans', sans-serif;
+  //margin-top: -3px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: white;
+  background-color: #181f2b;
+}
+
+@media screen and (max-width: 768px) {
+  .divAttr {
+    //margin-top: 0px;
+    //height: 50px;
+    .divAttrPic {
+      img {
+        height: 250px;
+      }
+    }
+    .divAttrSingleBody {
+      padding-top: 50px;
+    }
+  }
+}

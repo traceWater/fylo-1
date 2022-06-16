@@ -1,0 +1,88 @@
+.divAttrSingle {
+  font-family: 'Open Sans', sans-serif;
+  margin: 25px;
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  color: white;
+  img {
+    margin: 0 auto;
+    width: 15%;
+  }
+  .h1 {
+    margin: 15px auto 0px;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .p {
+    margin: 15px auto 0px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divAttrSingle {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divAttrSingle {
+    width: 90%;
+  }
+}
+
+.divQuotesSingle {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px;
+  width: 25%;
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  color: white;
+  background-color: hsl(210,28%,23%);
+  border-radius: 10px;
+  .p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+  .block {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 15%;
+      border-radius: 20px;
+      margin-left: 0;
+    }
+  }
+  .blockInner {
+    margin-left: 10px;
+  }
+  .h1Sm {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .h2Sm {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divQuotesSingle {
+    width: 80%;
+  }
+}

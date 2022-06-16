@@ -1,0 +1,37 @@
+.header{
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    display: flex;
+    width: 120px;
+    height: 100%;
+  }
+  .navigation {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+
+  }
+}
